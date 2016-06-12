@@ -12,6 +12,8 @@ var gulp = require('gulp'),
  */
 gulp.task('serve:before', ['watch']);
 
+gulp.task('default', ['build']);
+
 // we want to 'watch' when livereloading
 var shouldWatch = argv.indexOf('-l') > -1 || argv.indexOf('--livereload') > -1;
 gulp.task('run:before', [shouldWatch ? 'watch' : 'build']);
