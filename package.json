@@ -28,7 +28,7 @@
     "typings": "^1.0.4"
   },
   "scripts": {
-    "build": "node_modules/.bin/gulp Build",
+    "build": "node_modules/.bin/gulp build",
     "typings": "node_modules/.bin/typings install",
     "postinstall": "npm run typings && npm run build"
   },
