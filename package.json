@@ -2,7 +2,7 @@
   "name": "ionic2-ts-blank",
   "private": true,
   "version": "0.0.1",
-  "description": "ionic-tabs-b32: An Ionic project",
+  "description": "ionic2-ts-blank: An Ionic project",
   "dependencies": {
     "@angular/common": "2.0.0-rc.3",
     "@angular/compiler": "2.0.0-rc.3",
