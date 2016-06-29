@@ -6,6 +6,8 @@ import {NavController} from 'ionic-angular';
 })
 export class HomePage {
   constructor(private navController: NavController) {
-
+    }
+  onLink(url: string) {
+      window.open(url);
   }
 }

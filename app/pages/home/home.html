@@ -1,14 +1,50 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content class="home" padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+    <h2 class="center">Ionic Blank Starter</h2> 
+
+    <div class="center">
+        <p class="ionic-logo" style=""></p>
+    </div>
+
+    <ion-card>
+        <ion-card-header>
+            Docs are here to help
+        </ion-card-header>
+
+        <ion-list>
+            <button ion-item (click)="onLink('https://taco.visualstudio.com/')">
+                <ion-icon name="jet" item-left></ion-icon>
+                Getting Started
+            </button>
+
+            <button ion-item (click)="onLink('http://ionicframework.com/docs/v2/')">
+                <ion-icon name="ionic" item-left></ion-icon>
+                Ionic Framework
+            </button>
+
+            <button ion-item (click)="onLink('https://taco.visualstudio.com/en-us/docs/add-azure-mobile-app/')">
+                <ion-icon name="thunderstorm" item-left></ion-icon>
+                Azure Services
+            </button>
+
+            <button ion-item (click)="onLink('https://taco.visualstudio.com/en-us/docs/manage-plugins/')">
+                <ion-icon name="cafe" item-left></ion-icon>
+                Plugins Support
+            </button>
+
+            <button ion-item (click)="onLink('https://taco.visualstudio.com/en-us/docs/tips-and-workarounds-general-readme/')">
+                <ion-icon name="paw" item-left></ion-icon>
+                Throubleshooting
+            </button>
+
+        </ion-list>
+    </ion-card>
+
 </ion-content>
