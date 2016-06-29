@@ -5,14 +5,12 @@ node_modules/
 www/build/
 platforms/
 plugins/
-typings/
 *.swp
 .DS_Store
 Thumbs.db
-
-.vscode/
+typings/
 .vs/
-bld/
 bin/
+bld/
 *.user
 *.suo
