@@ -1,0 +1,134 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Ionic2.Blank.Beta10.1</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>JavaScript</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Ionic2.Blank.Beta10.1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ionic2-ts-blank.jsproj" File="ionic2-ts-blank.jsproj" ReplaceParameters="true">      
+      <Folder Name="app" TargetFolderName="app">
+        <Folder Name="pages" TargetFolderName="pages">
+          <Folder Name="home" TargetFolderName="home">
+            <ProjectItem ReplaceParameters="true" TargetFileName="home.html">home.html</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="home.scss">home.scss</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="home.ts">home.ts</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="theme" TargetFolderName="theme">
+          <ProjectItem ReplaceParameters="false" TargetFileName="app.core.scss">app.core.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="app.ios.scss">app.ios.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="app.md.scss">app.md.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="app.variables.scss">app.variables.scss</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="app.wp.scss">app.wp.scss</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="app.ts">app.ts</ProjectItem>
+      </Folder>
+      <Folder Name="hooks" TargetFolderName="hooks">
+        <Folder Name="after_prepare" TargetFolderName="after_prepare">
+          <ProjectItem ReplaceParameters="true" TargetFileName="010_add_platform_class.js">010_add_platform_class.js</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
+      </Folder>    
+      <Folder Name="resources" TargetFolderName="resources">
+        <Folder Name="android" TargetFolderName="android">
+          <Folder Name="icon" TargetFolderName="icon">
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-hdpi-icon.png">drawable-hdpi-icon.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-ldpi-icon.png">drawable-ldpi-icon.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-mdpi-icon.png">drawable-mdpi-icon.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-xhdpi-icon.png">drawable-xhdpi-icon.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-xxhdpi-icon.png">drawable-xxhdpi-icon.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-xxxhdpi-icon.png">drawable-xxxhdpi-icon.png</ProjectItem>
+          </Folder>
+          <Folder Name="splash" TargetFolderName="splash">
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-land-hdpi-screen.png">drawable-land-hdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-land-ldpi-screen.png">drawable-land-ldpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-land-mdpi-screen.png">drawable-land-mdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-land-xhdpi-screen.png">drawable-land-xhdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-land-xxhdpi-screen.png">drawable-land-xxhdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-land-xxxhdpi-screen.png">drawable-land-xxxhdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-port-hdpi-screen.png">drawable-port-hdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-port-ldpi-screen.png">drawable-port-ldpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-port-mdpi-screen.png">drawable-port-mdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-port-xhdpi-screen.png">drawable-port-xhdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-port-xxhdpi-screen.png">drawable-port-xxhdpi-screen.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="drawable-port-xxxhdpi-screen.png">drawable-port-xxxhdpi-screen.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="ios" TargetFolderName="ios">
+          <Folder Name="icon" TargetFolderName="icon">
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon@2x.png">icon@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-40.png">icon-40.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-40@2x.png">icon-40@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-40@3x.png">icon-40@3x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-50.png">icon-50.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-50@2x.png">icon-50@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-60.png">icon-60.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-60@2x.png">icon-60@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-60@3x.png">icon-60@3x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-72.png">icon-72.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-72@2x.png">icon-72@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-76.png">icon-76.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-76@2x.png">icon-76@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-83.5@2x.png">icon-83.5@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-small.png">icon-small.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-small@2x.png">icon-small@2x.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="icon-small@3x.png">icon-small@3x.png</ProjectItem>
+          </Folder>
+          <Folder Name="splash" TargetFolderName="splash">
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default@2x~iphone.png">Default@2x~iphone.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default~iphone.png">Default~iphone.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-568h@2x~iphone.png">Default-568h@2x~iphone.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-667h.png">Default-667h.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-736h.png">Default-736h.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-Landscape@2x~ipad.png">Default-Landscape@2x~ipad.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-Landscape~ipad.png">Default-Landscape~ipad.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-Landscape-736h.png">Default-Landscape-736h.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait@2x~ipad.png">Default-Portrait@2x~ipad.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait~ipad.png">Default-Portrait~ipad.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="windows" TargetFolderName="windows">
+          <Folder Name="icon" TargetFolderName="icon">
+            <ProjectItem ReplaceParameters="false" TargetFileName="logo150x150.scale-100.png">logo150x150.scale-100.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="logo310x310.scale-100.png">logo310x310.scale-100.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="logo44x44.scale-100.png">logo44x44.scale-100.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="logo50x50.scale-100.png">logo50x50.scale-100.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="logo71x71.scale-100.png">logo71x71.scale-100.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150.scale-100.png">Wide310x150.scale-100.png</ProjectItem>
+          </Folder>
+          <Folder Name="splash" TargetFolderName="splash">
+            <ProjectItem ReplaceParameters="false" TargetFileName="Splash620x300.scale-100.png">Splash620x300.scale-100.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="splash.png">splash.png</ProjectItem>
+      </Folder>
+      <Folder Name="www" TargetFolderName="www">
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="config.xml">config.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="gulpfile.js">gulpfile.js</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ionic.config.json">ionic.config.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Project_Readme.html">Project_Readme.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="taco.json">taco.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="tsconfig.json">tsconfig.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="typings.json">typings.json</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.MultiDeviceHybridApps.VSTemplateWizard, Culture=neutral</Assembly>
+    <FullClassName>Microsoft.VisualStudio.MultiDeviceHybridApps.VSTemplateWizard.MultiDeviceApplicationProjectWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
