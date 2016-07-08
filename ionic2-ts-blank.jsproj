@@ -10,21 +10,9 @@
       <Configuration>Debug</Configuration>
       <Platform>iOS</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug|Windows-AnyCPU">
-      <Configuration>Debug</Configuration>
-      <Platform>Windows-AnyCPU</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug|Windows-x64">
-      <Configuration>Debug</Configuration>
-      <Platform>Windows-x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|Windows-x86">
       <Configuration>Debug</Configuration>
       <Platform>Windows-x86</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Debug|Windows-ARM">
-      <Configuration>Debug</Configuration>
-      <Platform>Windows-ARM</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Android">
       <Configuration>Release</Configuration>
@@ -34,28 +22,16 @@
       <Configuration>Release</Configuration>
       <Platform>iOS</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Windows-AnyCPU">
-      <Configuration>Release</Configuration>
-      <Platform>Windows-AnyCPU</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Windows-x64">
-      <Configuration>Release</Configuration>
-      <Platform>Windows-x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|Windows-x86">
       <Configuration>Release</Configuration>
       <Platform>Windows-x86</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Windows-ARM">
-      <Configuration>Release</Configuration>
-      <Platform>Windows-ARM</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4a0dddb5-7a95-4fbf-97cc-616d07737a77}" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>0f67a095-28e9-4dc3-8b05-c8a6367846a8</ProjectGuid>
+    <ProjectGuid>9ddd2ed0-3260-4210-8598-f5e882da7ee8</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0'">
@@ -86,10 +62,5 @@
     <!-- Installs (if necessary) the supporting Nodejs module -->
     <Exec Command="&quot;$(MDAVsixDir)&quot;\packages\vs-tac\install &quot;$(NodeJsDir)&quot; &quot;$(MDAVsixDir)&quot;\packages\vs-tac" />
   </Target>
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties project_1json__JSONSchema="http://www.asp.net/media/4878834/project.json" />
-    </VisualStudio>
-  </ProjectExtensions>
   <Import Project="_apacheCordovaProjectSourceItems.Targets" Condition="Exists('_apacheCordovaProjectSourceItems.Targets')" />
 </Project>
