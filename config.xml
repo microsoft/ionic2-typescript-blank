@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.ionic2tsblank146615" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>ionic2-ts-blank</name>
-  <description>An Ionic Framework and Cordova project.</description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+  <description>An Ionic Framework and Cordova project for Visual Studio</description>
+  <author email="vscordovatools@microsoft.com" href="http://taco.visualstudio.com">Visual Studio JS Mobile Tooling</author>
   <content src="index.html" />
   <access origin="*" />
   <allow-intent href="http://*/*" />
@@ -67,6 +67,7 @@
   <platform name="windows">
     <preference name="SplashScreenBackgroundColor" value="#ffffff" />
     <splash src="resources/windows/splash/Splash620x300.scale-100.png" width="620" height="300" />
+    <splash src="resources/windows/splash/splashscreenphone.png" width="1152" height="1920" />
     <icon src="resources/windows/icon/logo150x150.scale-100.png" width="150" height="150" />
     <icon src="resources/windows/icon/logo310x310.scale-100.png" width="310" height="310" />
     <icon src="resources/windows/icon/logo44x44.scale-100.png" width="44" height="44" />
