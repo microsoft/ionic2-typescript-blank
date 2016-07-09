@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Ionic2.Blank.Beta10.1</Name>
-    <Description>&lt;No description available&gt;</Description>
-    <ProjectType>JavaScript</ProjectType>
+    <Name>Ionic 2 (Beta 10) Blank</Name>
+    <Description>Template to start an Ionic2 Beta 10 Blank app</Description>
+    <ProjectType>TypeScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Ionic2.Blank.Beta10.1</DefaultName>
+    <DefaultName>ionic2-ts-blank</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
