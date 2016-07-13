@@ -55,3 +55,6 @@ Once you have all the packages restored, and the Gulp tasks executed, you can us
 #### Live Reload
 Ionic cli offers the `ionic serve` command to implement a Live Reload development workflow, you can obtain similar results executing the gulp task `watch` 
 and using the Live Reload capabilities of the Ripple Emulator
+
+## Code of conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
