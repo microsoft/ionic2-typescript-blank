@@ -13,6 +13,7 @@ A template to create Ionic 2 apps with Visual Studio tools for Apache Cordova us
 * [Visual Studio 2015 Update 3](https://download.microsoft.com/download/4/8/f/48f0645f-51b6-4733-b808-63e640cddaec/vs2015.3.exe)
 * [Tools for Apache Cordova Update 10](http://taco.visualstudio.com/en-us/docs/install-vs-tools-apache-cordova/)
 * [Microsoft ASP.Net and WebTools](https://visualstudiogallery.msdn.microsoft.com/c94a02e9-f2e9-4bad-a952-a63a967e3935)
+* [NPM Task Runner](https://visualstudiogallery.msdn.microsoft.com/8f2f2cbc-4da5-43ba-9de2-c9d08ade4941)
 
 ## VSCode Requirements
 * A recent version of Node/NPM 
@@ -24,25 +25,21 @@ Once you have your first project based on this template/repo created, you should
 ### Restore Npm Packages
 VSCode will depend on you to execute `npm install` from the root folder.
 
-Visual Studio should start the restore process as soon the project is opened, you should see how the Dependencies node in Solution Explorer shows a message saying "Restoring..",
-you can always invoke the restore process manually with `RightClick->Restore Packages`
+Visual Studio should start the restore process as soon the project is opened. You should see the Dependencies node in Solution Explorer show a message saying "Restoring..". 
+You can always invoke the restore process manually with `RightClick->Restore Packages`
 
 To verify that the packages are completely restored you can check that the folder `www\build` contains some folders.
 > Note. Visual Studio shows the restore log in the Output Window `Ctrl+Alt+O` under the Npm/Bower category.  
 
-### Run Gulp Tasks
-Ionic uses [Gulp](http://gulpjs.com/) to perform some tasks like [Sass](http://sass-lang.com/), and TypeScript compilation to process your source code and produce the output in the `www` folder.
+### Run Ionic App Scripts
+Ionic uses [Ionic App Scripts](https://github.com/driftyco/ionic-app-scripts) to perform some tasks like [Sass](http://sass-lang.com/), and TypeScript compilation to process your source code and produce the output in the `www` folder.
 
 Visual Studio 2015 includes a Task Runner Explorer that will show you all the available tasks to execute from the UI. 
-You can access the Task Runner Explorer from the Menu: `View->Other Windows-Task Runner Explorer` or with the shortcut `Ctrl+Alt+Bkspce`  
+You can access the Task Runner Explorer from the Menu: `View->Other Windows-Task Runner Explorer` or with the shortcut `Ctrl+Alt+Bkspce`. Ensure that you've installed the NPM Task Runner (.vsix) which adds support for npm scripts defined in package.json directly in Visual Studio's Task Runner Explorer.  
 
 >Note: To ensure that the default tasks are executed before the VS build, we configured the Task Runner Explorer binding the default task to the BeforeBuild event, however you can customize this setting to match your needs (e.g. Binding watch to project opened)
 
-To execute this tasks from the CLI you can:
-
-1. Have a global installation of gulp, and run `gulp build`
-2. Use the local installed version `node_modules\.bin\gulp build`
-3. Use the npm script: `npm run build`
+To execute this tasks from the CLI you manually run: `npm run build`
 
 > Note: If VS is unable to show the tasks, you can check the log in the Ouput window under the Task Runner Explorer Logs category.
 
